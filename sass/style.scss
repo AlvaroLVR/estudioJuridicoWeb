@@ -1,0 +1,25 @@
+// VARIABLES QUE QUIERO MODIFICAR
+$primary: #ff914d;
+// IMPORT LAS HOJAS SASS DE BOOTSTRAP QUE TENGAS MI VARIABLES
+
+.linkedin{
+    color: blue; 
+}
+.boton{
+    z-index: 99;
+}
+.texto{
+    z-index: 99;
+  
+}
+.circulo{
+    height: 200px;
+    width:  200px;
+    border-radius: 50%;
+}
+.circulo:hover{
+    background-color: #ff914da9 !important;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; 
