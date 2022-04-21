@@ -25,4 +25,13 @@ $primary: #ff914d;
     position: relative;
     bottom: 3px;
 }
+
+@media  (max-width: 400px){
+    .footer-text{
+        text-align: center
+    }
+    .footer-content{
+        justify-content: center;
+    }
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; 
