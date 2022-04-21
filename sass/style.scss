@@ -25,6 +25,10 @@ $primary: #ff914d;
     position: relative;
     bottom: 3px;
 }
+.lista-mobile{
+    display: flex;
+    justify-content: end;
+}
 
 @media  (max-width: 420px){
     .footer-text{
@@ -33,5 +37,17 @@ $primary: #ff914d;
     .footer-content{
         justify-content: center;
     }
+    .lista-mobile{
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .logo-menu{
+        width: 50vw;
+    }
+    
 }
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; 
