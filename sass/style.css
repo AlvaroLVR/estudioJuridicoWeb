@@ -54,6 +54,10 @@
   width: 25vw;
 }
 
+.titulo {
+  text-shadow: 3px -2px 1px black;
+}
+
 @media (max-width: 420px) {
   .footer-text {
     text-align: center;

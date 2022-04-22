@@ -43,6 +43,10 @@ $primary: #ff914d;
     width: 25vw;
 }
 
+.titulo{
+     text-shadow: 3px -2px 1px black;  // ejeX ejeY Difuminacion color;
+}
+
 @media  (max-width: 420px){
     .footer-text{
         text-align: center
