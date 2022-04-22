@@ -29,6 +29,19 @@ $primary: #ff914d;
     display: flex;
     justify-content: end;
 }
+//PERFIL
+.cardPrincipal{
+    height: 400px;
+    width: 40vw;
+}
+.divPerfilPrincipal{
+    display: flex;
+    flex-flow: row wrap;
+}
+.cardStaff{
+    height: 400px;
+    width: 25vw;
+}
 
 @media  (max-width: 420px){
     .footer-text{
@@ -48,6 +61,69 @@ $primary: #ff914d;
     .logo-menu{
         width: 50vw;
     }
+    .mobile-lista{
+        display: none !important;
+    }
+    .mapa{
+        width: 90vw;
+        height: 300px;
+    }
+    .telyemail{
+        margin-top: 2rem !important;
+    }
+    //SERVICIOS
+    .divCirculo{
+        .circulo{
+            width: 100px;
+            height: 100px;
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+        h3{
+            font-size: small;
+            
+        }
+    }
+
+    .Especialidades{
+        img{
+            height: 40px ;
+            width: 40px ;
+        }
+        h4{
+            font-size: small;
+        }
+    }
+    .Especialidades:hover{
+        img{
+            height: 80px ;
+            width: 80px ;
+        }
+        h4{
+            font-size: 1.5rem;
+        }
+    }
+
+    .divServicio{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 90vw;
+    }
     
+    h2{
+        text-align: center
+    }
+    .cardPrincipal{
+        height: auto;
+        width: 90vw;
+        align-content: center
+    }
+    .lista-frecuentes{
+        width: 80vw;
+    }
 }
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; 

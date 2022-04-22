@@ -34,11 +34,39 @@
           justify-content: end;
 }
 
+.cardPrincipal {
+  height: 400px;
+  width: 40vw;
+}
+
+.divPerfilPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.cardStaff {
+  height: 400px;
+  width: 25vw;
+}
+
 @media (max-width: 420px) {
   .footer-text {
     text-align: center;
   }
   .footer-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lista-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -50,6 +78,67 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .logo-menu {
+    width: 50vw;
+  }
+  .mobile-lista {
+    display: none !important;
+  }
+  .mapa {
+    width: 90vw;
+    height: 300px;
+  }
+  .telyemail {
+    margin-top: 2rem !important;
+  }
+  .divCirculo .circulo {
+    width: 100px;
+    height: 100px;
+  }
+  .divCirculo .circulo img {
+    height: 40px;
+    width: 40px;
+  }
+  .divCirculo h3, .divCirculo .h3 {
+    font-size: small;
+  }
+  .Especialidades img {
+    height: 40px;
+    width: 40px;
+  }
+  .Especialidades h4, .Especialidades .h4 {
+    font-size: small;
+  }
+  .Especialidades:hover img {
+    height: 80px;
+    width: 80px;
+  }
+  .Especialidades:hover h4, .Especialidades:hover .h4 {
+    font-size: 1.5rem;
+  }
+  .divServicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card {
+    width: 90vw;
+  }
+  h2, .h2 {
+    text-align: center;
+  }
+  .cardPrincipal {
+    height: auto;
+    width: 90vw;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .lista-frecuentes {
+    width: 80vw;
   }
 }
 
