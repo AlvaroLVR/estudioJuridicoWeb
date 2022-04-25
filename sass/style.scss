@@ -47,6 +47,7 @@ $primary: #ff914d;
      text-shadow: 3px -2px 1px black;  // ejeX ejeY Difuminacion color;
 }
 
+
 @media  (max-width: 420px){
     .footer-text{
         text-align: center
@@ -128,6 +129,21 @@ $primary: #ff914d;
     }
     .lista-frecuentes{
         width: 80vw;
+    }
+    //FOOTER
+    .redeSociales{
+        display: flex !important;
+        flex-direction: row !important;
+        // .rdDiv-1{
+
+        // }
+        // .rdDiv-2{
+
+        // }
+
+    }
+    .formReunion{
+        width: 90vw;
     }
 }
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; 
