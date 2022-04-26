@@ -18,32 +18,40 @@
 </head>
 <body>
   <!--HEADER NAVBAR-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     
-    <a class="navbar-brand " href="#"><img class="shadow bg-body rounded mx-5" src="../img/LogoEstudioJuridico_navbar.png" alt="logoNavbar" height="90px" width="200px"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand logo-menu" href="#"><img class="shadow bg-body rounded ms-3" src="../img/LogoEstudioJuridico_navbar.png" alt="logoNavbar" height="90px" width="200px"></a>
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
     </button>
+    
+    <div class="collapse navbar-collapse lista-mobile me-2" id="navbarSupportedContent">
 
-    <div class="collapse navbar-collapse position-relative " id="navbarSupportedContent">
-      <ul class="navbar-nav position-absolute end-0 mx-4"> <!--me-auto mb-2 mb-lg-0 -->
+      <ul class="navbar-nav "> <!--me-auto mb-2 mb-lg-0 -->
+        
         <li class="nav-item mx-2">
           <a class="nav-link active text-light fs-5" aria-current="page" href="../index.html">Inicio</a>
         </li>
+       
         <li class="nav-item mx-2">
           <a class="nav-link active text-light fs-5" aria-current="page" href="./Contacto.html">Contacto</a>
         </li>
+       
         <li class="nav-item mx-2">
-          <a class="nav-link active text-light fs-5" aria-current="page" href="#">Servicios</a>
+          <a class="nav-link active text-light fs-5" aria-current="page" href="./Servicios.html">Servicios</a>
         </li>
+       
         <li class="nav-item mx-2">
-          <a class="nav-link active text-light fs-5" aria-current="page" href="#">Perfil</a>
+          <a class="nav-link active text-light fs-5" aria-current="page" href="./Perfil.html">Equipo</a>
         </li>
+      
         <li class="nav-item mx-2">
-          <a class="nav-link active text-light fs-5" aria-current="page" href="#">FAQs</a>
+          <a class="nav-link active text-light fs-5" aria-current="page" href="./PreguntasFrecuentes.html">FAQs</a>
         </li>
       </ul>
+
     </div>
+
   </nav>
 
   <!-- MAIN -->
@@ -115,11 +123,10 @@
     <div class="d-flex flex-column justify-content-center mt-2">
       <h6 class="text-center mb-3 pb-3 border-bottom border-5">Navegá por el sitio</h6>
       <ul class="navbar-nav ">
-        <li class="nav-item"> <a class="nav-link  text-light" href="#">Contacto</a> </li>
-        <li class="nav-item"> <a class="nav-link  text-light" href="#">Perfil</a></li>
-        <li class="nav-item"> <a class="nav-link  text-light" href="#">Especialidades</a></li>
-        <li class="nav-item"> <a class="nav-link  text-light" href="#">Servicios</a></li>
-        <li class="nav-item"> <a class="nav-link  text-light" href="#">Preguntas Frecuentes</a></li>
+        <li class="nav-item"> <a class="nav-link  text-light" href="./Contacto.html">Contacto</a> </li>
+        <li class="nav-item"> <a class="nav-link  text-light" href="./Perfil.html">Perfil</a></li>
+        <li class="nav-item"> <a class="nav-link  text-light" href="./Servicios.html">Servicios</a></li>
+        <li class="nav-item"> <a class="nav-link  text-light" href="./PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
       </ul>
     </div>
 
@@ -144,16 +151,18 @@
       </div>
     </div>
 
-    <div class="container-fluid d-flex justify-content-center mt-2">
-      <div class="d-flex align-items-center border-top border-bottom border-1 border-secundary mb-4 mt-4">
-        <img src="../img/LogoEstudioJuridico_navbar.png" alt="EstudioLogo" height="90px" width="200px">
-        <div class="d-flex flex-column ">
+    <div class="container-fluid d-flex justify-content-center mt-2 ">
+      <div class="d-flex align-items-center border-top border-bottom border-1 border-secundary mb-4 mt-4 flex-wrap-reverse footer-content">
+        <img class="footer-img" src="../img/LogoEstudioJuridico_navbar.png" alt="EstudioLogo" height="90px" width="200px">
+        <div class="d-flex flex-column footer-text">
           <h4>Estudio Juridico Dr.Villanueva</h4>
           <h5><i>25 años de compromiso, trabajo y pasión por el derecho</i></h5>
         </div> 
       </div>
     </div>
-    <p class="d-flex justify-content-end mt-2 me-0 ">|  <i> Sitios Web Infinite 2022 </i>  | </p>
+
+    <p class="d-flex justify-content-end mt-2 me-0 fs-6">  <i> Sitios Web Infinite 2022 </i>   </p>
+
   </div>
   
   <!--BOOTSTRAP-->
