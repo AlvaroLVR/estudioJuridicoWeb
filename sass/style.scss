@@ -32,11 +32,15 @@ $primary: #ff914d;
 //PERFIL
 .cardPrincipal{
     height: 400px;
-    width: 40vw;
+    width: auto;
 }
 .divPerfilPrincipal{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.descripcion{
+    width: 60vw;
 }
 .cardStaff{
     height: 400px;
